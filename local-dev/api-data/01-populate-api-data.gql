@@ -720,8 +720,8 @@ mutation PopulateApi {
     input: {
       id: 3
       name: "kickstart-openshift"
-      consoleUrl: "[REPLACE ME WITH OPENSHIFT URL]"
-      token: "[REPLACE ME WITH OPENSHIFT LAGOON SERVICEACCOUTN TOKEN]"
+      consoleUrl: "https://console-ost-drupal-test.urz.uni-heidelberg.de/"
+      token: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJsYWdvb24iLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlY3JldC5uYW1lIjoib3BlbnNoaWZ0YnVpbGRkZXBsb3ktdG9rZW4tZHZwcmQiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoib3BlbnNoaWZ0YnVpbGRkZXBsb3kiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC51aWQiOiJlYzZhYjhkOS01ZDE3LTExZTktODBkNS1mYTE2M2VhZmNkNGYiLCJzdWIiOiJzeXN0ZW06c2VydmljZWFjY291bnQ6bGFnb29uOm9wZW5zaGlmdGJ1aWxkZGVwbG95In0.qwmHWpWHM7sGB2VCdZhtssIPVlKRz3R0KMHX-Seiw67a7ncpPNxy4HqpaXiWCUxdU9NARGUdNrJf8xf9b819hVZJLbxbu-v3WzDTXKkl2PfMZGu78jk8onT5kr9JnwagplOzQUj8e7Xnqi6dd70qj5RcscELd3SsQ4eLW_d79JTp9L1Se5Qffxgd3D0H1S_CPlRBzyOYn4FyK2aW0vN85KEfbm46EjbT4fRRUxWqQOua7oWue55A6elbFAVx7eH84NK0xmVtOT1qt1-ciudo0khDrkJWRTQ-dLY8wqkA-n0IUcPacxhBh9UHf_QjeerxB0CFVfECu16RhI3FMKxTIQ"
     }
   ) {
     id
@@ -732,7 +732,7 @@ mutation PopulateApi {
       name: "lagoon"
       customer: 4
       openshift: 3
-      gitUrl: "git@github.com:amazeeio/lagoon.git"
+      gitUrl: "git@github.com:rvaddeman/lagoon.git"
       openshiftProjectPattern: "lagoon"
       productionEnvironment:"master"
     }
